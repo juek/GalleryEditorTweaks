@@ -11,6 +11,8 @@ box-shadow:0 0 6px rgba(0,0,0,0.4);
 z-index:10000;
 padding:36px;
 cursor:move;
+height:100%;
+ax-height: calc(100vh - 180px)!important;
 }
 
 .gpge_box #gp_current_images {
