@@ -1,8 +1,10 @@
 .gpge_box {
 position:absolute;
 top:80px;
-right:300px;
-width:640px;
+height:100%;
+max-height: calc(100vh - 180px);
+width: calc(100vw - 120px);
+right:10px;
 border-radius:6px;
 background:#fff;
 -webkit-box-shadow:0 0 6px rgba(0,0,0,0.4);
