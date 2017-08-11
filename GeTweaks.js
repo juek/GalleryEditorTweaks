@@ -22,7 +22,9 @@ $.extend(gp_editor, {
     gp_editor.thumbs_box
       .append( $("#gp_current_images") )
     gp_editor.thumbs_box
-      .draggable()
+      .draggable({
+        cancel : "#gp_current_images"
+      })
       .resizable()
       .show();
     gp_editor.editbox_button.hide();
