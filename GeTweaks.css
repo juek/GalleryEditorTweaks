@@ -1,27 +1,31 @@
 .gpge_box {
-position:absolute;
-top:80px;
-right:300px;
-width:640px;
-border-radius:6px;
-background:#fff;
--webkit-box-shadow:0 0 6px rgba(0,0,0,0.4);
--moz-box-shadow:0 0 6px rgba(0,0,0,0.4);
-box-shadow:0 0 6px rgba(0,0,0,0.4);
-z-index:10000;
-padding:36px;
-cursor:move;
+  position:absolute;
+  top:80px;
+  height:100%;
+  max-height:calc(100vh - 180px);
+  width:calc(100vw - 120px);
+  left:calc(265px - 100vw);
+  border-radius:6px;
+  background:#fff;
+  -webkit-box-shadow:0 0 6px rgba(0,0,0,0.4);
+  -moz-box-shadow:0 0 6px rgba(0,0,0,0.4);
+  box-shadow:0 0 6px rgba(0,0,0,0.4);
+  z-index:10000;
+  padding:24px 24px 36px 24px;
+  cursor:move;
 }
 
 .gpge_box #gp_current_images {
-  border:1px solid #f0f0f0;
-  background:#f3f3f3;
+  border:1px solid #ddd;
+  background:#f2f2f2;
   border-radius:3px;
   max-height:none;
   height:100%;
   cursor:default;
+  padding:3px;
 }
 
 .gpge_box #gp_current_images div {
-  width:18%!important;
+  width:calc(20% - 6px)!important;
+  margin:3px!important;
 }

@@ -4,7 +4,7 @@ $.extend(gp_editor, {
     if( $("#ckeditor_tools a.gallery-editbox-button").length == 0 ){
       gp_editor.editbox_button = 
         $('<a class="ckeditor_control full_width">'
-        + '<i class="fa fa-share-square-o"></i> Edit in Box</a>')
+        + '<i class="fa fa-share-square-o fa-flip-horizontal"></i> Edit in Box</a>')
           .on("click", gp_editor.open_box)
           .insertBefore("a.ShowImageSelect");
      }
