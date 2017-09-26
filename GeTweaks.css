@@ -29,3 +29,18 @@
   width:calc(20% - 6px)!important;
   margin:3px!important;
 }
+
+
+#/** Buttons align *********************/
+gp_current_images span{
+	width: 100%;
+	background: none !important;
+}
+
+#gp_current_images span a{
+	background: #ddd;
+}
+
+#gp_admin_html a[data-cmd="gp_gallery_rm"] {
+	float: right;
+}
